@@ -30,3 +30,11 @@ go run ./cmd/client
 ## Mangagement UI
 
 When running RabbitMQ navigate to http://localhost:15672/ in browser
+
+## Debugging through console
+
+Check APIs using
+
+```shell
+curl -u USER:PASS -X GET http://localhost:15672/api/queues/%2F/pause.washington | jq .message_stats.deliver_get
+```
