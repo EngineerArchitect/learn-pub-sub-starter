@@ -17,3 +17,4 @@ case "$1" in
         echo "Usage: $0 {start|stop|logs}"
         exit 1
 esac
+
