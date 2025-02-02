@@ -21,3 +21,12 @@ go get github.com/rabbitmq/amqp091-go
 ```shell
 go run ./cmd/server
 ```
+
+3. Run Client
+
+```shell
+go run ./cmd/client
+```
+## Mangagement UI
+
+When running RabbitMQ navigate to http://localhost:15672/ in browser
